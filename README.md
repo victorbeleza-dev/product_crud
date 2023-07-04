@@ -33,3 +33,14 @@ npm start ou yarn start
 * A aplicação estará disponível em seu navegador no endereço http://localhost:3000.
 
 * Certifique-se de que o servidor backend esteja em execução para que a aplicação frontend possa se comunicar com ele corretamente.
+
+
+# Fluxo de Trabalho GitFlow
+Este projeto segue o fluxo de trabalho GitFlow para organizar as branches e o processo de desenvolvimento colaborativo.
+
+## Branches Principais
+* master: A branch master contém as versões estáveis do projeto. As atualizações nessa branch são feitas apenas por meio de merges de branches de release e hotfixes.
+* develop: A branch develop é o ponto central para o desenvolvimento. Novas funcionalidades, correções de bugs e outras atualizações são desenvolvidas nessa branch antes de serem mescladas em branches de release.
+
+## Branches de Funcionalidade
+* feature/{nome-da-funcionalidade}: Branches de funcionalidade são usadas para desenvolver novas funcionalidades ou melhorias. Cada funcionalidade é desenvolvida em uma branch separada, criada a partir da branch develop. Quando a funcionalidade estiver concluída, ela será mesclada de volta para a branch develop.
