@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    username: sa
+    password: sa
+    url: 'jdc:h2:mem:pauta;DB_CLOSE_DELAY=-1;DATABASE_TO_UPPER=false'
+  jpa:
+    hibernate:
+      ddl-auto: create-drop

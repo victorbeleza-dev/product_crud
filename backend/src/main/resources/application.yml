@@ -1,0 +1,15 @@
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092
+    template:
+      default-topic: product_topic
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: playground
+    password: playground
+    url: 'jdbc:postgresql://localhost:54321/playground'
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+
