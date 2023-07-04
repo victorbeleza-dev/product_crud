@@ -36,7 +36,6 @@ npm start ou yarn start
 
 
 # Fluxo de Trabalho GitFlow
-Este projeto segue o fluxo de trabalho GitFlow para organizar as branches e o processo de desenvolvimento colaborativo.
 
 ## Branches Principais
 * master: A branch master contém as versões estáveis do projeto. As atualizações nessa branch são feitas apenas por meio de merges de branches de release e hotfixes.
